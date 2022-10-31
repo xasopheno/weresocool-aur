@@ -1,5 +1,5 @@
 # Maintainer: Danny <weresocool@xasopheno.com>
-pkgname=test_publish_weresocool
+pkgname=weresocool
 pkgver=1.0.39
 pkgrel=1
 pkgdesc="*** WereSoCool __!Now In Stereo!__ *** Make cool sounds. Impress your friends/pets/plants"
@@ -8,7 +8,7 @@ license=("GPL-3.0")
 arch=("x86_64")
 depends=("portaudio" "pkg-config" "lame" "vorbis-tools")
 makedepends=("cargo" "portaudio" "pkg-config" "lame" "vorbis-tools")
-provides=("test_publish_weresocool") 
+provides=("weresocool") 
 source=("git+https://github.com/xasopheno/weresocool#tag=v"$pkgver"")
 
 prepare() {
