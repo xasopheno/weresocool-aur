@@ -14,7 +14,7 @@ jobs:
       - name: Release AUR package
         uses: ./action
         with:
-          pkgname: test_publish_weresocool
+          pkgname: weresocool
           pkgbuild: ./PKGBUILD
           commit_username: Danny Meyer
           commit_email: weresocool@xasopheno.com

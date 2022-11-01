@@ -1,5 +1,3 @@
-This action is a fork of: https://github.com/jbouter/aur-releaser
-
 # aur-releaser
 Allow releasing packages to the AUR
 
